@@ -2,7 +2,8 @@ import tensorflow as tf
 import importlib
 import os
 if __name__ == '__main__':
-    flags = tf.flags
+    # flags = tf.flags 
+    flags = tf.compat.flags
     flags.DEFINE_string('data', 'data_config', 'The data config')
     flags.DEFINE_string('agent', 'kernel', 'The predictor type')
     flags.DEFINE_string('mode', 'train', 'The mode')

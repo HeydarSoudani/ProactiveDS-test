@@ -115,3 +115,5 @@ venv.bak/
 
 # mine
 tx_data/
+preprocess/convai2/source/
+preprocess/source_data.pk
